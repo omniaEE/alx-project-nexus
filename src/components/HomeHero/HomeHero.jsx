@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import heroImage from "../../assets/MovieHero3.png"; // Replace with your hero image
-import logo from "../../assets/victor.png"; // Replace with your logo image
+import heroImage from "../../assets/MovieHero3.png"; 
+import logo from "../../assets/victor.png"; 
 
 const HomeHero = () => {
   // Variants for container animation
@@ -62,11 +62,11 @@ const HomeHero = () => {
               Explore a vast collection of movies and find your next binge-watch!
             </motion.p>
 
-            {/* Call to Action Button */}
+         
            
           </motion.div>
 
-          {/* Right Section: Hero Image */}
+
           <motion.div
             className="basis-1/2 flex items-center justify-center"
             variants={itemVariants}
